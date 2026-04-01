@@ -1,0 +1,222 @@
+/* ═══════════════════════════════════════════════════════════
+   MTAL — Option 2: Minetech (midnight navy · gold · cyan)
+   Extracted from Minetech AI Labs v2.1 presentation palette
+   BG #080C24 · Gold #F5A623 · Cyan #00C8FF · Purple #6B35A0
+   DEFAULT theme — active when no data-theme attribute is set
+═══════════════════════════════════════════════════════════ */
+
+:root {
+  /* Backgrounds */
+  --bg:          #070A1E;   /* deep midnight navy             */
+  --surface-1:   #0A0E2A;   /* dark navy                      */
+  --surface-2:   #0D1440;   /* card background navy           */
+  --surface-3:   #142060;   /* elevated surface               */
+  --surface-4:   #1C2A78;   /* highlighted surface            */
+  --border:      #1A2860;   /* subtle border                  */
+  --border-light:#2840A0;   /* lighter border                 */
+
+  /* Accents — roles remapped to Minetech palette */
+  --green-forest: #6B35A0;  /* purple → takes "forest" role  */
+  --green-neon:   #F5A623;  /* gold amber → primary accent    */
+  --green-dim:    #3D1D60;  /* dim purple                     */
+  --teal-mid:     #00B59A;  /* teal — same warmth             */
+  --teal-light:   #00C8FF;  /* electric cyan → bright accent  */
+
+  /* Text */
+  --cream:       #D8E4F8;   /* cool blue-white                */
+  --cream-muted: #607090;   /* muted blue-grey                */
+  --cream-dim:   #1C2850;   /* very dim, nav/footer use       */
+  --white:       #EBF2FF;   /* near-white, blue tint          */
+}
+
+/* ── Hardcoded-rgba overrides ──────────────────────────── */
+
+.hero::before {
+  background: linear-gradient(
+    105deg,
+    rgba(7, 10, 30, 0.92) 0%,
+    rgba(7, 10, 30, 0.62) 45%,
+    rgba(7, 10, 30, 0.14) 100%
+  );
+}
+.hero__glow {
+  background: radial-gradient(ellipse at center,
+    rgba(245, 166, 35, 0.07) 0%,
+    rgba(0, 181, 154, 0.05) 35%,
+    transparent 70%);
+}
+.hero__badge {
+  color: #F5A623;
+  border: 1px solid rgba(245, 166, 35, 0.35);
+  background: rgba(245, 166, 35, 0.06);
+}
+.badge-dot {
+  background: #F5A623;
+}
+.nav.scrolled {
+  background: rgba(7, 10, 30, 0.96);
+}
+.project-tag {
+  border-color: rgba(245, 166, 35, 0.35);
+  background:   rgba(245, 166, 35, 0.06);
+  color: #F5A623;
+}
+.btn--copper:hover {
+  background: rgba(0, 181, 154, 0.15);
+}
+.ring-outer {
+  border-color: rgba(245, 166, 35, 0.30);
+}
+.ring-mid {
+  border-color: rgba(0, 200, 255, 0.22);
+}
+
+/* ── Topo SVG: navy rings, gold hotspot ────────────────── */
+.topo-svg ellipse {
+  stroke: #1E3A9A;
+}
+/* Inner rings get the cyan */
+.topo-svg ellipse:nth-child(9),
+.topo-svg ellipse:nth-child(10),
+.topo-svg ellipse:nth-child(11),
+.topo-svg ellipse:nth-child(12),
+.topo-svg ellipse:nth-child(13) {
+  stroke: #00C8FF;
+}
+/* Deposit fill dots → gold */
+.topo-svg ellipse[fill]:not([fill="none"]) {
+  stroke: none;
+  fill: #F5A623;
+}
+.scan-line {
+  stroke: #F5A623;
+}
+
+/* ── Component colour overrides ────────────────────────── */
+.geo-dot {
+  background: #F5A623;
+  box-shadow: 0 0 14px rgba(245, 166, 35, 0.8);
+}
+.project-bar-fill {
+  background: linear-gradient(to right, #00B59A, #F5A623);
+}
+.stat__value  { color: #00C8FF; }
+.stat__suffix { color: #F5A623; }
+
+.btn--primary {
+  background: #F5A623;
+  border-color: #F5A623;
+  color: #070A1E;
+}
+.btn--primary:hover {
+  background: #FFD060;
+  border-color: #FFD060;
+}
+.btn--ghost:hover {
+  border-color: #F5A623;
+}
+.btn--outline:hover {
+  border-color: #00C8FF;
+  color: #00C8FF;
+}
+.btn--nav {
+  color: #F5A623;
+}
+.btn--card {
+  color: #F5A623;
+}
+.btn--card:hover {
+  color: #FFD060;
+}
+
+/* Hero headline italic → gold */
+.hero__headline em,
+.section-headline em {
+  color: #F5A623;
+}
+
+/* Section labels → cyan */
+.section-label {
+  color: #00C8FF;
+}
+.section-label::before {
+  background: #00C8FF;
+}
+
+/* Token diagram */
+.token-diagram__core svg polygon {
+  fill: rgba(245, 166, 35, 0.10);
+  stroke: #F5A623;
+}
+.token-diagram__core svg text {
+  fill: #F5A623;
+}
+
+/* Geo-ring colour */
+.geo-ring {
+  border-color: #00C8FF;
+}
+
+/* Scroll hint line */
+.scroll-line {
+  background: linear-gradient(to bottom, transparent, #F5A623);
+}
+
+/* Nav underline hover */
+.nav__links a::after {
+  background: #F5A623;
+}
+
+/* Logo hex mark */
+.nav__logo-mark {
+  color: #F5A623;
+}
+
+/* Bar chart active bar */
+.bar--active::after {
+  background: linear-gradient(to top, #F5A623, #FFD060);
+}
+
+/* Bar chart normal bars */
+.bar::after {
+  background: linear-gradient(to top, #142060, #1C4A9A);
+}
+
+/* Service card number */
+.service-card__number {
+  color: #00C8FF;
+}
+
+/* Process step number */
+.process-step__num {
+  color: #F5A623;
+}
+
+/* Pillar icon SVG strokes */
+.pillar__icon svg circle,
+.pillar__icon svg path,
+.pillar__icon svg rect,
+.pillar__icon svg polygon {
+  stroke: #F5A623;
+}
+
+/* Footer */
+.footer__login {
+  color: #F5A623;
+}
+.footer__col a:hover {
+  color: #F5A623;
+}
+
+/* Status colours */
+.status--active { color: #00C8FF; }
+.pm-value       { color: #F5A623; }
+.token-fact__value { color: #00C8FF; }
+
+/* CTA band topo rings → gold innermost */
+.cta-band__topo ellipse {
+  stroke: #1E3A9A;
+}
+.cta-band__topo ellipse:nth-last-child(-n+3) {
+  stroke: #F5A623;
+}

@@ -1,0 +1,8 @@
+baseURL = 'https://mtal.io.github.io/'
+languageCode = 'en-us'
+title = 'MTAL'
+
+[taxonomies]
+
+[params]
+  description = 'AI-powered mineral discovery and blockchain-funded mining projects'

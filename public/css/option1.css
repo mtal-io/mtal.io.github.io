@@ -1,0 +1,189 @@
+/* ═══════════════════════════════════════════════════════════
+   MTAL — Option 1: Deep Seam (Adobe green/teal palette)
+   #034159 · #025951 · #02735E · #038C3E · #0CF25D
+   ALTERNATE theme — active when data-theme="option1"
+═══════════════════════════════════════════════════════════ */
+
+html[data-theme="option1"] {
+  /* Backgrounds */
+  --bg:          #010C12;
+  --surface-1:   #021B26;
+  --surface-2:   #034159;
+  --surface-3:   #025951;
+  --surface-4:   #02735E;
+  --border:      #0A3040;
+  --border-light:#114858;
+
+  /* Accents */
+  --green-forest: #038C3E;
+  --green-neon:   #0CF25D;
+  --green-dim:    #057A32;
+  --teal-mid:     #02735E;
+  --teal-light:   #3DA67A;
+
+  /* Text */
+  --cream:       #DCE8E4;
+  --cream-muted: #5C7A72;
+  --cream-dim:   #1E3830;
+  --white:       #EBF4F0;
+}
+
+/* ── Hardcoded-rgba overrides (option 1 values) ── */
+html[data-theme="option1"] .hero::before {
+  background: linear-gradient(
+    105deg,
+    rgba(1, 12, 18, 0.88) 0%,
+    rgba(1, 12, 18, 0.58) 45%,
+    rgba(1, 12, 18, 0.12) 100%
+  );
+}
+html[data-theme="option1"] .hero__glow {
+  background: radial-gradient(ellipse at center,
+    rgba(12, 242, 93, 0.05) 0%,
+    rgba(2, 115, 94, 0.05) 35%,
+    transparent 70%);
+}
+html[data-theme="option1"] .hero__badge {
+  color: var(--green-neon);
+  border: 1px solid rgba(12, 242, 93, 0.25);
+  background: rgba(12, 242, 93, 0.04);
+}
+html[data-theme="option1"] .badge-dot {
+  background: var(--green-neon);
+}
+html[data-theme="option1"] .nav.scrolled {
+  background: rgba(1, 12, 18, 0.94);
+}
+html[data-theme="option1"] .project-tag {
+  border-color: rgba(2, 115, 94, 0.35);
+  background: rgba(2, 115, 94, 0.08);
+}
+html[data-theme="option1"] .btn--copper:hover {
+  background: rgba(2, 115, 94, 0.15);
+}
+html[data-theme="option1"] .ring-outer {
+  border-color: rgba(2, 115, 94, 0.35);
+}
+html[data-theme="option1"] .ring-mid {
+  border-color: rgba(2, 89, 81, 0.30);
+}
+
+/* ── Topo SVG ring colours ── */
+html[data-theme="option1"] .topo-svg ellipse                          { stroke: #025951; }
+html[data-theme="option1"] .topo-svg ellipse:nth-child(6),
+html[data-theme="option1"] .topo-svg ellipse:nth-child(7),
+html[data-theme="option1"] .topo-svg ellipse:nth-child(8)             { stroke: #038C3E; }
+html[data-theme="option1"] .topo-svg ellipse:nth-child(9),
+html[data-theme="option1"] .topo-svg ellipse:nth-child(10),
+html[data-theme="option1"] .topo-svg ellipse:nth-child(11),
+html[data-theme="option1"] .topo-svg ellipse:nth-child(12),
+html[data-theme="option1"] .topo-svg ellipse:nth-child(13)            { stroke: #0CF25D; }
+html[data-theme="option1"] .topo-svg ellipse[fill]:not([fill="none"]) { stroke: none; fill: #0CF25D; }
+html[data-theme="option1"] .geo-dot {
+  background: var(--green-neon);
+  box-shadow: 0 0 14px var(--green-neon);
+}
+html[data-theme="option1"] .project-bar-fill {
+  background: linear-gradient(to right, var(--teal-mid), var(--green-neon));
+}
+html[data-theme="option1"] .stat__value   { color: var(--green-neon); }
+html[data-theme="option1"] .stat__suffix  { color: var(--green-forest); }
+html[data-theme="option1"] .btn--primary  { background: var(--green-neon); border-color: var(--green-neon); color: #010C12; }
+html[data-theme="option1"] .btn--primary:hover { background: #3DF57A; border-color: #3DF57A; }
+
+/* Hero headline italic → neon green */
+html[data-theme="option1"] .hero__headline em,
+html[data-theme="option1"] .section-headline em {
+  color: var(--green-neon);
+}
+
+/* Section labels → teal */
+html[data-theme="option1"] .section-label {
+  color: var(--teal-light);
+}
+html[data-theme="option1"] .section-label::before {
+  background: var(--teal-light);
+}
+
+/* Token diagram */
+html[data-theme="option1"] .token-diagram__core svg polygon {
+  fill: rgba(12, 242, 93, 0.10);
+  stroke: var(--green-neon);
+}
+html[data-theme="option1"] .token-diagram__core svg text {
+  fill: var(--green-neon);
+}
+
+/* Geo-ring colour */
+html[data-theme="option1"] .geo-ring {
+  border-color: var(--teal-light);
+}
+
+/* Scroll hint line */
+html[data-theme="option1"] .scroll-line {
+  background: linear-gradient(to bottom, transparent, var(--green-neon));
+}
+
+/* Nav underline hover */
+html[data-theme="option1"] .nav__links a::after {
+  background: var(--green-neon);
+}
+
+/* Logo hex mark */
+html[data-theme="option1"] .nav__logo-mark {
+  color: var(--green-neon);
+}
+
+/* Bar chart active bar */
+html[data-theme="option1"] .bar--active::after {
+  background: linear-gradient(to top, var(--green-forest), var(--green-neon));
+}
+
+/* Bar chart normal bars */
+html[data-theme="option1"] .bar::after {
+  background: linear-gradient(to top, var(--surface-2), var(--surface-4));
+}
+
+/* Service card number */
+html[data-theme="option1"] .service-card__number {
+  color: var(--green-neon);
+}
+
+/* Process step number */
+html[data-theme="option1"] .process-step__num {
+  color: var(--green-neon);
+}
+
+/* Pillar icon SVG strokes */
+html[data-theme="option1"] .pillar__icon svg circle,
+html[data-theme="option1"] .pillar__icon svg path,
+html[data-theme="option1"] .pillar__icon svg rect,
+html[data-theme="option1"] .pillar__icon svg polygon {
+  stroke: var(--green-neon);
+}
+
+/* Footer */
+html[data-theme="option1"] .footer__login {
+  color: var(--green-neon);
+}
+html[data-theme="option1"] .footer__col a:hover {
+  color: var(--green-neon);
+}
+
+/* Status colours */
+html[data-theme="option1"] .status--active { color: var(--teal-light); }
+html[data-theme="option1"] .pm-value       { color: var(--green-neon); }
+html[data-theme="option1"] .token-fact__value { color: var(--teal-light); }
+
+/* CTA band topo rings */
+html[data-theme="option1"] .cta-band__topo ellipse {
+  stroke: #025951;
+}
+html[data-theme="option1"] .cta-band__topo ellipse:nth-last-child(-n+3) {
+  stroke: var(--green-neon);
+}
+
+/* scan-line → green */
+html[data-theme="option1"] .scan-line {
+  stroke: var(--green-neon);
+}

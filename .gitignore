@@ -6,6 +6,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.hugo_build.lock
 
 # Additional Ruby/bundler ignore for when you run: bundle install
 /vendor
