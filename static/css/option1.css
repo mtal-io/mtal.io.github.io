@@ -187,3 +187,13 @@ html[data-theme="option1"] .cta-band__topo ellipse:nth-last-child(-n+3) {
 html[data-theme="option1"] .scan-line {
   stroke: var(--green-neon);
 }
+
+html[data-theme="option1"] .dropbtn {
+  background-color: var(--surface-1);
+}
+
+html[data-theme="option1"] .dropdown-content {
+  border-color: var(--border-light);
+  background-color: var(--surface-3);
+}
+

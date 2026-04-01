@@ -220,3 +220,12 @@
 .cta-band__topo ellipse:nth-last-child(-n+3) {
   stroke: #F5A623;
 }
+
+html[data-theme="option2"] .dropbtn {
+  background-color: var(--surface-1);
+}
+
+html[data-theme="option2"] .dropdown-content {
+  border-color: var(--border-light);
+  background-color: var(--surface-3);
+}
