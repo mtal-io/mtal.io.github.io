@@ -1,6 +1,6 @@
 +++
 date = '2026-04-03T05:39:13+05:30'
-draft = true
+draft = false
 title = 'Projects'
 layout = 'list'
 +++
