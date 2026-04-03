@@ -1,8 +1,68 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'MTAL'
+paginate = 5
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [taxonomies]
 
 [params]
   description = 'AI-powered mineral discovery and blockchain-funded mining projects'
+
+# ── Primary navigation ────────────────────────────────────
+[[menu.main]]
+  name       = "Token Economics"
+  url        = "/#governance"
+  weight     = 1
+
+[[menu.main]]
+  name       = "Explore Platform"
+  url        = "/explore-platform/"
+  weight     = 2
+
+[[menu.main]]
+  name       = "Current Projects"
+  url        = "/#projects"
+  weight     = 3
+
+[[menu.main]]
+  name       = "Investors"
+  url        = "/investors/"
+  weight     = 4
+
+[[menu.main]]
+  name       = "Partners"
+  url        = "/partners/"
+  weight     = 5
+
+# ── Actions bar (right side of nav) ──────────────────────
+[[menu.actions]]
+  name       = "About"
+  url        = "/about/"
+  weight     = 1
+
+[[menu.actions]]
+  identifier = "blogs"
+  name       = "Blogs"
+  url        = "/blog/"
+  weight     = 2
+
+[[menu.actions]]
+  parent     = "blogs"
+  name       = "Project Lithio Launch"
+  url        = "/blog/project-lithio-launch"
+  weight     = 1
+
+[[menu.actions]]
+  parent     = "blogs"
+  name       = "News from the field"
+  url        = "/blog/news-from-the-field"
+  weight     = 2
+
+[[menu.actions]]
+  parent     = "blogs"
+  name       = "Mining in Africa"
+  url        = "/blog/mining-in-africa"
+  weight     = 3

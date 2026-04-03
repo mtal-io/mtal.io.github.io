@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ partial "header.html" . }}
+
+<main class="page-main">
+  <div class="page-inner">
+    <div class="page-header">
+      {{ with .Params.section_label }}<div class="section-label">{{ . }}</div>{{ end }}
+      <h1 class="page-headline">{{ .Title }}</h1>
+      {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+      <div class="page-meta">
+        {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>{{ end }}
+        {{ with .Params.author }}<span class="page-author">{{ . }}</span>{{ end }}
+      </div>
+    </div>
+    <div class="page-content">
+      {{ .Content }}
+    </div>
+  </div>
+</main>
+
+{{ partial "footer.html" . }}
+{{ end }}
