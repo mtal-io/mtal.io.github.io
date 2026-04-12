@@ -17,25 +17,25 @@ paginate = 5
 #  url        = "/#governance"
 #  weight     = 1
 
-[[menu.main]]
-  name       = "Explore Platform"
-  url        = "/explore-platform/"
-  weight     = 2
+#[[menu.main]]
+#  name       = "Explore Platform"
+#  url        = "/explore-platform/"
+#  weight     = 2
 
-[[menu.main]]
-  name       = "Projects"
-  url        = "/#projects"
-  weight     = 3
+#[[menu.main]]
+#  name       = "Projects"
+#  url        = "/#projects"
+#  weight     = 3
 
-[[menu.main]]
-  name       = "Investors"
-  url        = "/investors/"
-  weight     = 4
+#[[menu.main]]
+#  name       = "Investors"
+#  url        = "/investors/"
+#  weight     = 4
 
-[[menu.main]]
-  name       = "Partners"
-  url        = "/partners/"
-  weight     = 5
+#[[menu.main]]
+#  name       = "Partners"
+#  url        = "/partners/"
+#  weight     = 5
 
 # ── Actions bar (right side of nav) ──────────────────────
 [[menu.actions]]

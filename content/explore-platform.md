@@ -7,17 +7,17 @@ layout = 'page'
 section_label = 'Platform Overview'
 +++
 
-## A Different Kind of RWA
+<!-- ## A Different Kind of RWA
 
 Real-world asset tokenisation is not a new idea. But most RWA projects in the crypto space follow the same template: take an existing asset, wrap it in a token, and call it decentralised. The underlying asset remains opaque. The people who manage it remain unaccountable. The token is just a new layer on an old structure.
 
 MTAL is built differently, from the ground up.
 
-We did not start with a token and work backwards. We started with a fundamental problem — that mineral exploration and extraction is broken, expensive, and inaccessible — and built a platform to fix it. The token is the accountability layer, not the product.
+We did not start with a token and work backwards. We started with a fundamental problem — that mineral exploration and extraction is broken, expensive, and inaccessible — and built a platform to fix it. The token is the accountability layer, not the product. -->
 
 ### What Sets MTAL Apart
 
-**End-to-end verifiability.** Most RWA platforms give investors a claim on a revenue stream. MTAL gives investors a window into the entire operation — from the initial satellite scan through drill validation, mine commissioning, and quarterly revenue distribution. Every material event is recorded on-chain. You do not have to trust our reports. You can read the ledger.
+<!-- **End-to-end verifiability.** Most RWA platforms give investors a claim on a revenue stream. MTAL gives investors a window into the entire operation — from the initial satellite scan through drill validation, mine commissioning, and quarterly revenue distribution. Every material event is recorded on-chain. You do not have to trust our reports. You can read the ledger.
 
 **AI-led discovery, not retrospective tokenisation.** Other platforms tokenise existing mines — assets already discovered, already capitalised, already controlled by incumbents. MTAL identifies new deposits using its GeoScan AI system before committing capital. This means investors access projects at the earliest and highest-upside stage, not after the value has already been extracted.
 
@@ -25,7 +25,7 @@ We did not start with a token and work backwards. We started with a fundamental 
 
 **Direct project economics.** MTAL tokens are linked to specific projects, not to a pooled fund or a corporate treasury. Returns flow from the mine to the token holder via smart contract, with no intermediary taking a discretionary cut. The structure is transparent by design, not by marketing.
 
-**Jurisdiction-first approach.** Many RWA crypto projects operate across jurisdictions without meaningful local engagement — creating legal and reputational exposure that investors often don't discover until it's too late. MTAL builds structured partnerships with in-country landowners, geologists, regulatory specialists, and community stakeholders before a project is listed. This grounding is not just ethical — it is what makes projects viable and durable.
+**Jurisdiction-first approach.** Many RWA crypto projects operate across jurisdictions without meaningful local engagement — creating legal and reputational exposure that investors often don't discover until it's too late. MTAL builds structured partnerships with in-country landowners, geologists, regulatory specialists, and community stakeholders before a project is listed. This grounding is not just ethical — it is what makes projects viable and durable. -->
 
 ---
 
@@ -41,13 +41,13 @@ Once a project enters operation, OptiMine's real-time intelligence reduces the e
 
 ### On-Chain Environmental Accountability
 
-MTAL uses its utility token infrastructure to bring environmental data into the same verifiable framework as financial data. Key environmental indicators — water usage, land disturbance footprint, tailings management status, and carbon-intensity per tonne — are logged on-chain at the project level.
+MTAL brings environmental data into the same verifiable framework as financial data. Key environmental indicators — water usage, land disturbance footprint, tailings management status, and carbon-intensity per tonne — are logged on-chain at the project level.
 
 This means investors, regulators, and community stakeholders can observe environmental performance in the same way they observe financial performance: continuously, verifiably, and without relying on the mine operator's own reporting.
 
 ### Remediation Built Into Project Economics
 
-MTAL's project funding model includes a mandatory remediation reserve, funded from the first token raise and replenished from operations. This is not a voluntary ESG gesture — it is a structural requirement for every project listed on the platform. The reserve is held in a dedicated on-chain escrow, visible to all token holders, and governed by the DAO.
+MTAL's project funding model includes a mandatory remediation reserve, funded from the first raise and replenished from operations. This is not a voluntary ESG gesture — it is a structural requirement for every project listed on the platform. The reserve is held in a dedicated on-chain escrow, and governed by the DAO.
 
 ### Working With the Land, Not Against It
 
@@ -55,7 +55,7 @@ Wherever MTAL operates, it partners with local landowners, indigenous communitie
 
 ---
 
-## Utility Tokens and the Transparency Layer
+<!-- ## Utility Tokens and the Transparency Layer
 
 MTAL's utility token is the mechanism through which every stage of the mining lifecycle becomes legible to the outside world.
 
@@ -81,4 +81,4 @@ Utility token holders participate in key project decisions: which new projects a
 
 ### A Token That Does Something
 
-In a market crowded with governance tokens that govern nothing of consequence, MTAL's utility token is the operating system of a real industrial process. Its value is not speculative — it is grounded in the verified performance of assets in the ground.
+In a market crowded with governance tokens that govern nothing of consequence, MTAL's utility token is the operating system of a real industrial process. Its value is not speculative — it is grounded in the verified performance of assets in the ground. -->
