@@ -55,7 +55,7 @@ MTAL partners with specialist legal and regulatory advisers in each country who 
 
 Social licence — the informal permission granted by local communities for a project to operate — is increasingly recognised as the single biggest risk factor in mining project development. Projects that move fast and consult late routinely face protests, injunctions, and community opposition that can halt operations for years. The cost of poor community engagement vastly exceeds the cost of doing it properly.
 
-MTAL embeds community liaison specialists in each project from day one. These partners facilitate genuine consultation with affected communities, translate MTAL's commitments into locally meaningful terms, and maintain ongoing relationships throughout the project lifecycle. Where benefit-sharing agreements are appropriate, they structure these as on-chain commitments — verifiable by the community and enforceable through the DAO.
+MTAL embeds community liaison specialists in each project from day one. These partners facilitate genuine consultation with affected communities, translate MTAL's commitments into locally meaningful terms, and maintain ongoing relationships throughout the project lifecycle. Where benefit-sharing agreements are appropriate, they structure these as on-chain commitments — verifiable by the community. <!--  and enforceable through the DAO.-->
 
 ---
 

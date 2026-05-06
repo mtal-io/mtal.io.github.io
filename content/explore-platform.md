@@ -47,7 +47,7 @@ This means investors, regulators, and community stakeholders can observe environ
 
 ### Remediation Built Into Project Economics
 
-MTAL's project funding model includes a mandatory remediation reserve, funded from the first raise and replenished from operations. This is not a voluntary ESG gesture — it is a structural requirement for every project listed on the platform. The reserve is held in a dedicated on-chain escrow, and governed by the DAO.
+MTAL's project funding model includes a mandatory remediation reserve, funded from the first raise and replenished from operations. This is not a voluntary ESG gesture — it is a structural requirement for every project listed on the platform. The reserve is held in a dedicated on-chain escrow <!--, and governed by the DAO. -->
 
 ### Working With the Land, Not Against It
 

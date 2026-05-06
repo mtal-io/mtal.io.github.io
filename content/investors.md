@@ -43,11 +43,13 @@ MTAL publishes operational data on-chain at each stage of a project's lifecycle 
 
 This is a structural shift from how mining investment has always worked. In the MTAL model, information asymmetry between operators and investors is not a feature — it is a design problem we have solved.
 
+<!-- 
 ### DAO Governance Rights
 
 MTAL token holders vote on material decisions affecting the projects they are invested in. This includes new project admissions, capital threshold adjustments, and the deployment of remediation reserves at project end. The governance framework is on-chain — votes are recorded, outcomes are binding, and the process is transparent.
 
 This is not nominal governance. MTAL operates material decisions through the DAO because aligned incentives produce better outcomes. Investors who can see and influence how a project is managed are investors who stay engaged and hold for the long term.
+-->
 
 ### Liquidity
 
